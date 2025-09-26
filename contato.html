@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco - TLinks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo">
+                <a href="https://tlinks.com.br"><img src="tlinks.png" alt="TLinks" class="logo-img"></a>
+            </div>
+            </div>
+            <button class="menu-toggle">&#9776;</button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="sobre-nos.html" class="nav-link">Sobre Nós</a></li>
+                <li><a href="contato.html" class="nav-link active">Contato</a></li>
+                <li><a href="precos.html" class="nav-link">Preço</a></li>
+                <li><a href="suporte.html" class="nav-link">Suporte</a></li>
+                <li><a href="https://app.tlinks.com.br/login" target="_blank" class="nav-link">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Fale Conosco</h1>
+            <nav class="breadcrumb">
+                <a href="index.html">Home</a> > Fale Conosco
+            </nav>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Support Options -->
+                <div class="support-options">
+                    <div class="support-card">
+                        <div class="support-icon">💬</div>
+                        <h3 class="support-title">Suporte por Chat</h3>
+                        <p class="support-description">
+                            Nossa equipe está disponível de segunda a sexta, das 9h às 18h (horário de Brasília) para tirar suas dúvidas sobre links e SEO.
+                        </p>
+                    </div>
+                    
+                    <div class="support-card">
+                        <div class="support-icon">📞</div>
+                        <h3 class="support-title">Fale Conosco</h3>
+                        <p class="support-description">
+                            Entre em contato pelo <a href="https://web.whatsapp.com/send?phone=5516981685859" class="whatsapp-button" target="_blank">
+                        WhatsApp 16 98168-5859. </a> Atendimento de segunda a sexta, das 9:30h às 18h (horário de Brasília).
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2 class="form-title">Envie sua mensagem</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Seu Nome</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="form-input" 
+                                placeholder="Digite seu nome completo"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form-input" 
+                                placeholder="seu@email.com"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Assunto</label>
+                            <input 
+                                type="text" 
+                                id="subject" 
+                                name="subject" 
+                                class="form-input" 
+                                placeholder="Qual o motivo do seu contato?"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="form-textarea" 
+                                placeholder="Descreva sua dúvida ou solicitação..."
+                                rows="6"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button" disabled>
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="info-card">
+                    <div class="info-icon">📧</div>
+                    <h4 class="info-title">Email</h4>
+                    <p class="info-text">contato@tlinks.com.br</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">📱</div>
+                    <h4 class="info-title">WhatsApp</h4>
+                    <p class="info-text">16 98168-5859</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">🕒</div>
+                    <h4 class="info-title">Horário</h4>
+                    <p class="info-text">Seg-Sex: 9h às 18h<br>Sáb: 9h às 13h</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">⚡</div>
+                    <h4 class="info-title">Resposta</h4>
+                    <p class="info-text">Até 2 horas em horário comercial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Pronto para Começar?</h2>
+            <p class="cta-description">
+                Junte-se a milhares de empresas que já estão dominando o Google com nossa tecnologia de IA.
+            </p>
+            <button onclick="window.location.href='https://tlinks.com.br/precos'" class="cta-button">COMEÇAR AGORA</button>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+        <p>&copy; 2025 TLinks. Todos os direitos reservados. | <a style="color:#cbd5e1" href="politica-de-privacidade.html">Política de Privacidade</a></p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+    <script src="script.js"></script>
+    <script src="contato.js"></script>
+</body>
+</html>
+
